@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vfs>
+    <file name="hello.txt" encoding="text">Привет из VFS!</file>
+    <file name="notes.txt" encoding="text">Первая строка
+Вторая строка
+Третья строка</file>
+    <file name="empty.txt" encoding="text" />
+    <file name="data.bin" encoding="base64">AAEC/w==</file>
+</vfs>
+

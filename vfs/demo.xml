@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vfs>
+    <file name="hello.txt">Привет из VFS!
+</file>
+    <file name="lines.txt">Строка 1
+Строка 2
+Строка 3
+Строка 4
+Строка 5
+Строка 6
+Строка 7
+Строка 8
+Строка 9
+Строка 10
+Строка 11
+Строка 12
+</file>
+    <file name="empty.txt"/>
+    <file name=".hidden.txt">Скрытый файл
+</file>
+    <file name="-dash.txt">Имя с дефисом
+</file>
+    <file name="data.bin" encoding="base64">AAEC/w==</file>
+    <directory name="empty"/>
+    <directory name="documents">
+        <directory name="study">
+            <directory name="practice">
+                <file name="task.txt">Вариант 13
+</file>
+            </directory>
+        </directory>
+    </directory>
+</vfs>
+

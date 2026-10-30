@@ -1,0 +1,53 @@
+ls
+ls -a
+ls -l
+ls -al
+ls hello.txt
+ls empty
+ls documents hello.txt
+ls -- -dash.txt
+cd documents
+ls
+cd study/./practice
+cat task.txt
+cd ..
+cd -
+cd /documents
+cd
+cd ../../..
+cat hello.txt
+cat hello.txt empty.txt lines.txt
+cat -- -dash.txt
+head lines.txt
+head -n 2 lines.txt
+head --lines=1 hello.txt
+head -n 0 lines.txt
+head -n 2 hello.txt lines.txt
+head empty.txt
+head -- -dash.txt
+head -n2 lines.txt
+uptime
+unknown_command
+ls missing
+ls -z
+cd missing
+cd hello.txt
+cd hello.txt/..
+cd documents empty
+cat
+cat missing
+cat documents
+cat data.bin
+cat -z hello.txt
+head
+head -n
+head -n bad lines.txt
+head -n -1 lines.txt
+head -z lines.txt
+head missing
+uptime extra
+exit extra
+cat hello.txt
+exit
+ls
+

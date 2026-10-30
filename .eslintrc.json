@@ -1,0 +1,42 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "rules": {
+    "camelcase": "error",
+    "max-len": [
+      "error",
+      {
+        "code": 80
+      }
+    ],
+    "max-params": [
+      "error",
+      7
+    ],
+    "complexity": [
+      "error",
+      10
+    ],
+    "max-lines-per-function": [
+      "error",
+      40
+    ],
+    "require-jsdoc": "error",
+    "no-magic-numbers": [
+      "error",
+      {
+        "ignore": [
+          -1,
+          0,
+          1
+        ],
+        "ignoreArrayIndexes": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+ls
+ls hello.txt
+ls -l
+cd
+cd documents
+cd /documents/study/practice
+ls task.txt
+unknown_command
+ls
+exit
+

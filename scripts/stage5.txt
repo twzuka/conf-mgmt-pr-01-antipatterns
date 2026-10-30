@@ -1,0 +1,54 @@
+ls -al
+chown alice hello.txt
+ls -l hello.txt
+chown bob:students hello.txt
+ls -l hello.txt
+chown 1000:2000 hello.txt empty.txt documents
+ls -l
+touch new.txt
+ls -l new.txt
+cat new.txt
+touch hello.txt
+cat hello.txt
+touch -a hello.txt
+touch -m hello.txt
+touch -am hello.txt
+touch -c absent.txt
+ls absent.txt
+touch -c hello.txt
+touch first.txt second.txt
+ls first.txt second.txt
+touch -- -new.txt
+chown alice -- -new.txt
+ls -l -- -new.txt
+cd /documents/study/practice
+touch relative.txt
+touch . ..
+chown carol relative.txt task.txt
+ls -l
+cat task.txt
+cd /
+touch /documents/new.txt /documents/
+chown alice /documents
+ls -l documents
+chown
+chown bob
+chown :students hello.txt
+chown bob: hello.txt
+chown bad:name:group hello.txt
+chown -R bob documents
+chown alice missing hello.txt
+touch
+touch -z hello.txt
+touch missing/child
+touch hello.txt/child
+touch hello.txt/..
+touch hello.txt/
+touch missing/child after-error.txt
+ls after-error.txt
+uptime
+cat hello.txt
+head -n 2 lines.txt
+exit
+ls
+

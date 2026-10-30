@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vfs>
+    <directory name="documents">
+        <file name="notes.txt" encoding="text">Заметки</file>
+        <directory name="study">
+            <directory name="practice">
+                <file name="task.txt" encoding="text">Вариант 13</file>
+            </directory>
+        </directory>
+    </directory>
+</vfs>
+
